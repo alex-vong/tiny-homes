@@ -1,0 +1,64 @@
+/*Site Header*/
+
+.site-header {
+   background-color: var(--secondary);
+   color: var(--white);
+   padding:  10px 0;
+
+}
+
+masthead {
+   display: flex; 
+   flex-direction: column;
+
+   gap:  10px;
+
+}
+
+masthead a.logo, .footer a.logo {
+   height:  50px;
+   width:  50px;
+   background-color:  var(--primary);
+   border-radius:  50%;
+}
+
+masthead .site-menu .site-menu-links {
+   display:  flex;
+   gap:  25px;
+}
+
+masthead .site-menu {
+   display:  flex;
+   justify-content: space-between;
+   align-items: end;
+
+   /*font-weight:  600;*/
+}
+
+masthead .user-menu {
+   align-self:  flex-end;
+
+}
+
+ masthead .user-menu a, button {
+   padding:  10px;
+   background-color: var(--primary);
+   color:  var(--white);
+   border:  none;
+}
+
+
+
+@media (min-width:  768px) {
+
+   masthead {
+      flex-direction: row;
+      justify-content: space-between;
+      padding:  12px;
+   }
+   masthead .site-menu {
+      justify-content: flex-start;
+      gap:  10px;
+   }
+
+}

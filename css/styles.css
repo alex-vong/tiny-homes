@@ -1,0 +1,207 @@
+/* RESET */
+@import 'meyer-reset.css';
+@import 'setup.css';
+
+/* DEV temp styles */
+/*@import 'developer-styles.css'; */
+/* comment this ^ out - when you are ready */
+
+/* SETTINGS */
+@import 'settings.css'; /* variables/ etc */
+
+/* STRUCTURE */
+@import 'structure.css';
+
+/* TYPOGRAPHY */
+@import 'typography.css';
+
+/* COMPONENTS */
+@import 'components.css';
+@import 'components/site-header.css';
+@import 'components/landing.css';
+@import 'components/cta.css';
+
+
+
+/* ? */
+@import 'header.css';
+@import 'footer.css';
+
+/* MODULES */
+@import '../modules/masthead/style.css';
+
+
+
+@import 'meyers-reset.css';
+@import 'reset.css';
+
+
+
+
+
+
+
+/*article-grid*/
+
+
+.article-grid {
+	background-color: var(--white);
+   padding:  30px 0;
+
+   text-align:  center;
+	
+}
+
+.article-grid .main-card {
+   padding: 30px 15px;
+
+   display:  flex;
+   flex-direction: column;
+   gap:  15px;
+}
+
+.article-grid .grid-container .main-card {
+   margin-bottom:  25px;
+}
+
+.cards {
+   border:  2px solid #eae0df;
+}
+
+.cards .card-info {
+   padding:  30px 15px 40px;
+
+   display:  flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+
+
+.card-grid-container picture {
+   height:  0;
+   padding-bottom: 70%;
+   background-size: cover;
+   background-position: center;
+
+}
+
+.card-grid-container p.calm-voice {
+   padding:  10px 0 20px;
+}
+
+.card-grid-container {
+   display:  flex;
+   flex-direction: column;
+   gap:  20px;
+}
+
+
+
+
+@media (min-width:  768px) {
+   .card-grid-container {
+      display:  grid;
+      grid-template-columns: repeat(2, 1fr);
+      
+   }
+}
+
+@media (min-width:  1000px) {
+   .card-grid-container {
+      display:  grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      
+   }
+}
+
+
+
+
+/*footer*/
+
+
+
+section.footer {
+   background-color: var(--secondary);
+   color:  white;
+   padding-top: 20px;
+
+  
+
+}
+.footer-text {
+   display:  flex;
+   flex-direction: column;
+   gap:  15px;
+	padding:  25px 15px;
+   text-align: center;
+}
+
+.footer-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+   gap: 70px 0;
+
+   padding:  25px 15px;
+
+
+}
+
+.footer a.logo {
+   background-color: var(--primary);
+}
+
+.footer-grid section {
+   display:  flex;
+   flex-direction:  column;
+   gap:  15px;
+
+}
+
+.footer-grid section:nth-child(even) {
+  align-items: flex-end;
+
+}
+
+
+@media (min-width:  768px) {
+   .footer-grid {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

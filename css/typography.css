@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap');
+
+
+.loud-voice	{
+   font-family: 'Bebas Neue', cursive;
+	font-size: clamp(60px, 5vw, 80px);
+
+
+}
+
+@media (min-width: 600px) {
+	.loud-voice {
+		font-weight: 700;
+	}
+}
+
+
+.stern-voice	{
+   font-family: 'Bebas Neue', cursive;
+	font-size: 35px;
+  
+
+}
+
+.stout-voice	{
+   font-family: 'Bebas Neue', cursive;
+
+	font-size: 28px;
+ 
+
+}
+
+.calm-voice {
+   font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+  
+
+	line-height: 1.4;
+}
+
+.whisper {
+   font-family: 'Roboto', sans-serif;
+   font-size: 14px;
+}
+
+
+.footer a {
+   font-family: 'Roboto', sans-serif;
+
+}
+
+/* these would be scoped to section or to an article element */
+/* this is just a loose setting for now */
+/*p + p {
+	margin-top: 14px;
+}
+
+h1 + p {
+	margin-top: 20px;
+}
+
+h2 + p {
+	margin-top: 20px;
+}*/
+
+code {
+	font-family: monospace;
+	font-size: 1.1em;
+	color: green;
+}

@@ -1,0 +1,19 @@
+/* SETTINGS  ("variables" in our case) */
+html {
+	--black: #111111;
+	--white: #FFFFFF;
+
+	--shadow: rgba(0,0,0,.8);
+
+	--darken: rgba(0,0,0,.4);
+
+	--paper: var(--white);
+	--ink: var(--black);
+
+
+   --primary: #547609;
+    --secondary: #0d2943;
+
+}
+
+
